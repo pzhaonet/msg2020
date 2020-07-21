@@ -9,8 +9,12 @@
 为了跟流传已久的前 80 回的 pdf 版（庚寅本）以及去年搬迁得到的网页版（己亥本）区分，我们姑且称这一版为“现代统计图形（庚子本）”，简称 msg2020。
 
 - 宣传主页：<https://msg2020.pzhao.org>
+
 - [项目源码](https://github.com/XiangyunHuang/MSG-Book/tree/edition1)，[修订方案和进度](https://github.com/XiangyunHuang/MSG-Book/issues/88)，[前传](https://d.cosx.org/d/420857)。
+
 - Github 用户可以来本书宣传主页的 [issues](https://github.com/pzhaonet/msg2020/issues) 来发言。其他用户可以在[统计之都论坛](https://d.cosx.org/d/421648)后面留言。
+
+  <img src="image/msg2020-qr.png" style="zoom: 50%;" />
 
 ## 本书亮点
 
