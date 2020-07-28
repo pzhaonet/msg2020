@@ -25,7 +25,7 @@ title: 《现代统计图形（2020 版）》
 
 新版大纲：
 
-[![](image/msg2020-outline.png)](https://msg2020.pzhao.org/image/msg2020-outline.png)
+[![](image/msg2020-outline.png)](image/msg2020-outline.png)
 
 ### 小节内的改动
 
@@ -79,7 +79,7 @@ title: 《现代统计图形（2020 版）》
 
 > 新版：
 
-![](D:\Seafile\pz\github\msg2020\docs\image\msg2020-1.png)
+![](image/msg2020-1.png)
 
 ---
 
@@ -89,7 +89,7 @@ title: 《现代统计图形（2020 版）》
 
 > 新版：
 
-![](D:\Seafile\pz\github\msg2020\docs\image\msg2020-2.png)
+![](image/msg2020-2.png)
 
 ---
 
@@ -99,7 +99,7 @@ title: 《现代统计图形（2020 版）》
 
 > 新版：
 
-![](D:\Seafile\pz\github\msg2020\docs\image\msg2020-3.png)
+![](image/msg2020-3.png)
 
 ---
 
@@ -109,7 +109,7 @@ title: 《现代统计图形（2020 版）》
 
 > 新版：
 
-![](D:\Seafile\pz\github\msg2020\docs\image\msg2020-4.png)
+![](image/msg2020-4.png)
 
 ---
 > 旧版：
@@ -118,13 +118,13 @@ title: 《现代统计图形（2020 版）》
 
 > 新版：
 
-![](D:\Seafile\pz\github\msg2020\docs\image\msg2020-5.png)
+![](image/msg2020-5.png)
 
 ---
 
 > 新版新增“新冠疫情”：
 
-![](D:\Seafile\pz\github\msg2020\docs\image\msg2020-new1.png)
+![](image/msg2020-new1.png)
 
 > 新版新增“洛阳铲”：
-![](D:\Seafile\pz\github\msg2020\docs\image\msg2020-new2.png)
+![](image/msg2020-new2.png)
