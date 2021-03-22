@@ -1,10 +1,9 @@
 ---
-title: 《现代统计图形（2020 版）》
+menu:
+  header:
+    weight: 1
+title: 主页
 ---
-
-# 《现代统计图形（2020 版）》
-
-[TOC]
 
 这是《现代统计图形》2020 版的官方主页。
 
@@ -36,7 +35,7 @@ title: 《现代统计图形（2020 版）》
 
 其他可以吹牛的地方容我再考虑考虑。独吹乐，与民吹乐，孰乐？欢迎大家一起吹。
 
-[![](https://msg2020.pzhao.org/image/msg2020-outline.png)](https://msg2020.pzhao.org/image/msg2020-outline.png)
+[![](image/msg2020-outline.png)](image/msg2020-outline.png)
 
 ## 征集相关言论/书评
 
