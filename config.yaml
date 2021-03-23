@@ -1,5 +1,6 @@
 baseurl: "https://msg2020.pzhao.org/"
-languageCode: "en-us"
+# languageCode: "en-us"
+languageCode: "zh-cn"
 title: "现代统计图形"
 theme: "hugo-prose"
 publishdir: "docs"
@@ -24,17 +25,17 @@ menu:
     - name: 订阅
       url: "index.xml"
   footer:
-    - name: 联系
-      url: "/404.html"
-      weight: 1
-    - name: 类别
-      url: "/categories/"
-      weight: 2
-      pre: "optional"
-    - name: 标签
-      url: "/tags/"
-      weight: 3
-      pre: "optional"
+#    - name: 联系
+#      url: "/404.html"
+#      weight: 1
+#    - name: 类别
+#      url: "/categories/"
+#      weight: 2
+#      pre: "optional"
+#    - name: 标签
+#      url: "/tags/"
+#      weight: 3
+#      pre: "optional"
     - name: 回到顶部
       url: "#"
 

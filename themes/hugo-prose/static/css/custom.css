@@ -1,0 +1,17 @@
+/* A link that has not been visited */
+a:link {
+    color: darkblue;
+/*	text-decoration: underline */
+}
+/* A link that has been visited */
+a:visited {
+    color: grey;
+}
+/* A link that is hovered on */
+a:hover {
+    color: blue;
+}
+/* A link that is selected */
+a:active {
+    color: navy;
+}

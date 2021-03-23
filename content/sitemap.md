@@ -7,4 +7,3 @@ menu:
 title: 导航
 ---
 
-Below is a full list of posts and pages on this website ordered by date.
