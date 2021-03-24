@@ -12,28 +12,6 @@
 </section>
 {{ end }}
 
-{{ if .IsHome }}
-{{ range $i, $p := (where .Site.RegularPages "Section" "card") }}
-<section class="article-list"{{ with .Params.style }}{{ printf " style=%q" . | safeHTMLAttr }}{{ end }}>
-  <table>
-  <tbody>
-  <tr>
-  {{if (eq (mod $i 2) 0) }}
-  <td class="side-title"><h1>{{ $p.Title }}</h1></td>
-  <td class="spacer spacer-left"></td>
-  <td>{{ $p.Content }}</td>
-  {{ else }}
-  <td>{{ $p.Content }}</td>
-  <td class="spacer spacer-right"></td>
-  <td class="side-title"><h1>{{ $p.Title }}</h1></td>
-  {{ end }}
-  </tr>
-  </tbody>
-  </table>
-</section>
-{{ end }}
-{{ end }}
-
 {{ $pages := .Pages }}
 {{ if .IsHome }}
 {{ $pages = first (default 6 .Site.Params.homePosts) (sort (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) "Date" "desc") }}
@@ -81,6 +59,29 @@
     </tbody>
     </table>
   </section>
+{{ end }}
+
+
+{{ if .IsHome }}
+{{ range $i, $p := (where .Site.RegularPages "Section" "card") }}
+<section class="article-list"{{ with .Params.style }}{{ printf " style=%q" . | safeHTMLAttr }}{{ end }}>
+  <table>
+  <tbody>
+  <tr>
+  {{if (eq (mod $i 2) 0) }}
+  <td class="side-title"><h1>{{ $p.Title }}</h1></td>
+  <td class="spacer spacer-left"></td>
+  <td>{{ $p.Content }}</td>
+  {{ else }}
+  <td>{{ $p.Content }}</td>
+  <td class="spacer spacer-right"></td>
+  <td class="side-title"><h1>{{ $p.Title }}</h1></td>
+  {{ end }}
+  </tr>
+  </tbody>
+  </table>
+</section>
+{{ end }}
 {{ end }}
 
 {{ if not .IsHome }}

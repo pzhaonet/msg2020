@@ -1,6 +1,9 @@
 {{ if (and .File .Site.Params.editLink) }}
 <div>
+<!---
   <div class="side side-left"><h3>Suggest changes</h3></div>
+-->
+  <div class="side side-left"><h3>欢迎修订</h3></div>
   {{ $filePath := .File.Path }}
   {{ $RmdFile := (print .File.Dir .File.BaseFileName ".Rmd") }}
   {{ if (fileExists (print "content/" $RmdFile)) }}
@@ -11,8 +14,11 @@
       {{ $filePath = $RmdFile }}
     {{ end }}
   {{ end }}
+  如果您发现本文里含有任何错误（包括错别字和标点符号），欢迎<a href="{{ .Site.Params.editLink }}{{ $filePath }}" id="edit-link">在本站的 GitHub 项目里提交修订意见</a>。
+<!--
   If you find any mistakes (including typos) or want to suggest changes,
   please feel free to <a href="{{ .Site.Params.editLink }}{{ $filePath }}" id="edit-link">edit
   the source file of this page</a> on Github and create a pull request.
+-->
 </div>
 {{ end }}

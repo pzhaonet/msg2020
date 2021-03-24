@@ -1,5 +1,5 @@
-<!--
 <section class="appendix">
+<!--
 {{ if $.Site.Data.authors }}
 {{ if .Params.author }}
 <div>
@@ -8,6 +8,7 @@
 </div>
 {{ end }}
 {{ end }}
+-->
 
 {{ range $key, $value := .Params.appendix }}
 <div>
@@ -19,7 +20,10 @@
 
 {{ with (default .Params.license .Site.Params.license ) }}
 <div>
+<!--
   <div class="side side-left"><h3>Reuse</h3></div>
+-->
+  <div class="side side-left"><h3>重复使用</h3></div>
   {{ . | markdownify }}
 </div>
 {{ end }}
@@ -28,8 +32,12 @@
 
 {{ if .Params.author }}
 <div>
+  <div class="side side-left"><h3>引用本文</h3></div>
+  <p>如果您使用了本文的内容，请按照以下方式引用：</p>
+<!--
   <div class="side side-left"><h3>Citation</h3></div>
   <p>For attribution, please cite this work as</p>
+-->
   <pre><code class="no-highlight">{{ with .Params.author }}{{ if (reflect.IsSlice .) }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}{{ end }} ({{ (or .Date now).Format "2006" }}). {{ .Title }}. {{ .Site.Title }}. {{ .Permalink}}</code></pre>
   <p>BibTeX citation</p>
   <pre><code class="no-highlight">@misc{
@@ -41,5 +49,4 @@
 }</code></pre>
 </div>
 {{ end }}
---->
 </section>
