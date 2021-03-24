@@ -42,8 +42,8 @@ menu:
 params:
   homePosts: 6
   mainSections: ["post", "work"]
-#   editLink: "https://github.com/pzhaonet/msg2020/edit/master/content/"
-  editLink: "https://github.com/yihui/hugo-prose/edit/master/exampleSite/content/"
+  editLink: "https://github.com/pzhaonet/msg2020/edit/master/content/"
+#  editLink: "https://github.com/yihui/hugo-prose/edit/master/exampleSite/content/"
   authorDelimiter: " / "
   pageFeatures: [+sidenotes]
   description: >
