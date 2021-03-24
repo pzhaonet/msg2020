@@ -16,6 +16,16 @@ slug: new
 
 ### 章节结构改动
 
+<div class="quote-right">
+
+<a href="/../image/msg2020-outline.png">
+  <img src="/../image/msg2020-outline.png" width="400" alt="现代统计图形大纲" />
+</a>
+
+<center>新版大纲</center>
+
+</div>
+
 旧版为 7 章+ 4 个附录 。
 
 新版分为三部分，11 章，无附录。主要改动为：
@@ -27,32 +37,57 @@ slug: new
 - 把 “ggplot2 图形”一节适当增删，提升为独立的一章。
 - “三足鼎立”和“背景地图”两节移至“图库”，改为“三元图”和“地图”。
 
-新版大纲：
+<div class="embed-left">
+<center>
+<a href="/../image/msg2011-3.png">
+  <img src="/../image/msg2011-3.png" width="200" alt="现代统计图形旧版风玫瑰图" />
+</a>
+<p>
+旧版风玫瑰图
+</p>
+</center>
+</div>
 
-[![](/../image/msg2020-outline.png)](/../image/msg2020-outline.png)
+<div class="embed-right">
+<center>
+<a href="/../image/msg2020-3.png">
+  <img src="/../image/msg2020-3.png"  width="200" alt="现代统计图形新版风玫瑰图" />
+</a>
+<p>
+新版风玫瑰图
+</p>
+</center>
+</div>
 
 ### 小节内的改动
 
 - “现代实例”中每个例子都是先提出问题（案情回放），再亮出图形（探案过程），最后给出作图方法（探案工具）。
 
-- “图海”每种图形都是先介绍概念，再举出实例，最后给出代码。
+- “图库”每种图形都是先介绍概念，再举出实例，最后给出代码。
+
 
 ## 内容增删
+
 
 ### 更新过时的信息
 
 - 旧版中有过时的作图工具介绍、函数用法介绍、年久失修的附加包……新版全部更新或删除或替换。
 
-### **MSG** 包更新
-
-- 新增函数 `msg()`，方便读者用一句代码复现书中指定图形和呈现源代码（两个版本：基础作图和 ggplot2 作图）；
-- 修改了无效的代码实例；
-- 书中的插图代码全部搬到 **MSG** 包。
+<div class="embed-right">
+<center>
+<a href="/../image/msg2020-new1.png">
+  <img src="/../image/msg2020-new1.png" width="200" alt="新冠疫情" />
+</a>
+<p>
+新增章节“新冠疫情”
+</p>
+</center>
+</div>
 
 ### 新增小节
 
 - “现代实例”一章新增“新冠疫情”、“论坛热度”；
-- “图海”新增“风玫瑰图”；重写“地图”；重写“饼图”。
+- “图库”新增“风玫瑰图”；重写“地图”；重写“饼图”。
 - "作图工具"新增“重现本书图形”：R 语言的安装、使用和帮助
 - “R 基础作图系统”新增“误差线”。
 - "ggplot2" 新增“快速体验”和“基本框架”。
@@ -61,7 +96,30 @@ slug: new
 - 新增“自序”。
 - 新增“导读”。
 
+
 ### 更新与新增图片
+
+<div class="embed-left">
+<center>
+<a href="/../image/msg2011-2.png">
+  <img src="/../image/msg2011-2.png" width="200" alt="现代统计图形旧版饼图" />
+</a>
+<p>
+旧版饼图
+</p>
+</center>
+</div>
+
+<div class="embed-right">
+<center>
+<a href="/../image/msg2020-2.png">
+  <img src="/../image/msg2020-2.png"  width="200" alt="现代统计图形新版饼图" />
+</a>
+<p>
+新版饼图
+</p>
+</center>
+</div>
 
 - 旧版 138 图，绝大多数插图替换为 **ggplot2** 系统。
 - 新版增至约 160 图，新增如地图、提灯女士玫瑰图新版、美国大选图、鹦鹉螺图等。
@@ -69,7 +127,37 @@ slug: new
 - 新增 **ggplot2** 主题展示图。
 - 插图尽可能进行了汉化。
 
+
+### **MSG** 包更新
+
+- 新增函数 `msg()`，方便读者用一句代码复现书中指定图形和呈现源代码（两个版本：基础作图和 ggplot2 作图）；
+- 修改了无效的代码实例；
+- 书中的插图代码全部搬到 **MSG** 包。
+
 ### 新增数据表
+
+<div class="embed-left">
+<center>
+<a href="/../image/msg2011-1.png">
+  <img src="/../image/msg2011-1.png" width="200" alt="现代统计图形旧版数据表" />
+</a>
+<p>
+旧版数据表
+</p>
+</center>
+</div>
+
+<div class="embed-right">
+<center>
+<a href="/../image/msg2020-1.png">
+  <img src="/../image/msg2020-1.png"  width="200" alt="现代统计图形新版数据表" />
+</a>
+<p>
+新版数据表
+</p>
+</center>
+</div>
+
 
 - 旧版几乎没有表格，均以代码显示。新版增加数据表格 40 个，实例均以数据表格开头，以图形为主体，以代码收尾。
 
@@ -82,6 +170,29 @@ slug: new
 ### 代码格式
 
 - 旧版以 `usage()` 引出打印的单色代码。新版去掉了这个环节，直接亮代码。
+
+<div class="embed-left">
+<center>
+<a href="/../image/msg2011-4.png">
+  <img src="/../image/msg2011-4.png" width="200" alt="旧版代码用法格式" />
+</a>
+<p>
+旧版代码用法格式
+</p>
+</center>
+</div>
+
+<div class="embed-right">
+<center>
+<a href="/../image/msg2020-4.png">
+  <img src="/../image/msg2020-4.png" width="200" alt="新版代码用法格式" />
+</a>
+<p>
+新版代码用法格式
+</p>
+</center>
+</div>
+
 - 代码块全部调整字号，重新断行。
 - 增加注释。
 
@@ -94,9 +205,32 @@ slug: new
 - 连续多个逗号的大段文字重新划分句子。
 - 函数参数介绍段落重新列表。
 
+
+<div class="embed-left">
+<center>
+<a href="/../image/msg2011-5.png">
+  <img src="/../image/msg2011-5.png" width="200" alt="旧版函数参数介绍" />
+</a>
+<p>
+旧版函数参数介绍
+</p>
+</center>
+</div>
+
+<div class="embed-right">
+<center>
+<a href="/../image/msg2020-5.png">
+  <img src="/../image/msg2020-5.png" width="200" alt="新版函数参数介绍" />
+</a>
+<p>
+新版函数参数介绍
+</p>
+</center>
+</div>
+
 ### 个别文字
 
-- 修改个别错别字（竟然！）和不当的用词。
+- 修改个别错别字和不当的用词。
 
 ### 等号党
 
@@ -106,61 +240,3 @@ slug: new
 
 见[修订方案和进度](https://github.com/XiangyunHuang/MSG-Book/issues/88)。
 
-## 新旧版对比举例
-
-> 旧版：
-
-![](/../image/msg2011-1.png)
-
-> 新版：
->
-> ![](/../image/msg2020-1.png)
-
----
-
-> 旧版：
-
-![](/../image/msg2011-2.png)
-
-> 新版：
->
-> ![](/../image/msg2020-2.png)
-
----
-
-> 旧版：
-
-![](/../image/msg2011-3.png)
-
-> 新版：
->
-> ![](/../image/msg2020-3.png)
-
----
-
-> 旧版：
-
-![](/../image/msg2011-4.png)
-
-> 新版：
->
-> ![](/../image/msg2020-4.png)
-
----
-> 旧版：
-
-![](/../image/msg2011-5.png)
-
-> 新版：
->
-> ![](/../image/msg2020-5.png)
-
----
-
-> 新版新增“新冠疫情”：
->
-> ![](/../image/msg2020-new1.png)
-
-> 新版新增“洛阳铲”：
->
-> ![](/../image/msg2020-new2.png)

@@ -8,7 +8,12 @@ title: 主页
 这是《现代统计图形》印刷版的主页。
 
 <div class="embed-right">
-<img src="image/msg2020-qr.png" style="zoom: 50%;" align="middle" alt="现代统计图形网站链接的二维码" />
+<center>
+<a href="https://msg2020.pzhao.org/">
+  <img src="image/msg2020-qr.png" style="zoom: 50%;" align="middle" alt="现代统计图形网站链接的二维码" />
+</a>
+</center>
+
 </div>
 
 为了跟流传已久的前 80 回的 pdf 版（庚寅本）以及 2019 年搬迁得到的[网页版（己亥本）](https://bookdown.org/xiangyun/msg/)区分，我们姑且称这一版为“现代统计图形（庚子本）”，简称 msg2020。
