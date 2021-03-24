@@ -2,7 +2,6 @@
 author: 
   - 赵鹏
 title: '书中链接'
-date: 2021-03-24
 slug: hyperlink
 ---
 
