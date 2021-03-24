@@ -11,7 +11,7 @@ footnotereturnlinkcontents: "↩"
 paginate: 2
 
 permalinks:
-  post: "/post/:year/:month/:day/:slug/"
+  post: "/:slug/"
 
 outputs:
   home: [html, rss, json]
@@ -42,6 +42,7 @@ menu:
 params:
   homePosts: 6
   mainSections: ["post", "work"]
+#   editLink: "https://github.com/pzhaonet/msg2020/edit/master/content/"
   editLink: "https://github.com/yihui/hugo-prose/edit/master/exampleSite/content/"
   authorDelimiter: " / "
   pageFeatures: [+sidenotes]
@@ -50,10 +51,11 @@ params:
   footer: >
     &copy; 版权所有
   license: >
-    Text and figures are licensed under [Creative Commons Attribution CC BY
-    4.0](https://creativecommons.org/licenses/by/4.0/). The source code is
-    licensed under MIT. The full source is available at
-    https://github.com/yihui/hugo-prose.
+    本文文字和图表使用知识共享许可协议 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)，[源文件](https://github.com/pzhaonet/msg2020)采用 MIT 协议。。
+#    Text and figures are licensed under [Creative Commons Attribution CC BY
+#    4.0](https://creativecommons.org/licenses/by/4.0/). The source code is
+#    licensed under MIT. The full source is available at
+#    https://github.com/yihui/hugo-prose.
 
 markup:
   highlight:
