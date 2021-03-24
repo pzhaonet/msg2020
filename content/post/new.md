@@ -1,7 +1,8 @@
 ---
 author: 赵鹏
-title: 'msg2020 版有哪些新内容'
-abstract: new
+title: '庚子本有哪些新内容'
+date: 2020-07-28
+slug: new
 ---
 
 与庚寅本相比，本次的庚子本有重大变化，包括但不限于：
@@ -9,9 +10,6 @@ abstract: new
 - 篇章结构全部重新调整，以全新的逻辑框架面世。只要按推荐的顺序阅读，本书将有三种读法，分别面向不同需求的读者。
 - 在保持旧版原文风格的前提下，遣词造句、段落格式、乃至标点符号都经过再度精心打磨，更清晰流畅，易读易懂。
 - 除了新增一些图形之外，原书插图只要能改，就全部改为 ggplot 图形，并附有基础作图和 ggplot2 作图的两种源代码，含中文注释，并且全部经过最新版的 R 4.0.4 测试。
-
-[![](image/msg2020-outline.png)](image/msg2020-outline.png)
-
 
 ## 结构变动
 
@@ -30,7 +28,7 @@ abstract: new
 
 新版大纲：
 
-[![](image/msg2020-outline.png)](image/msg2020-outline.png)
+[![](/../image/msg2020-outline.png)](/../image/msg2020-outline.png)
 
 ### 小节内的改动
 
@@ -110,57 +108,57 @@ abstract: new
 
 > 旧版：
 
-![](image/msg2011-1.png)
+![](/../image/msg2011-1.png)
 
 > 新版：
 >
-> ![](image/msg2020-1.png)
+> ![](/../image/msg2020-1.png)
 
 ---
 
 > 旧版：
 
-![](image/msg2011-2.png)
+![](/../image/msg2011-2.png)
 
 > 新版：
 >
-> ![](image/msg2020-2.png)
+> ![](/../image/msg2020-2.png)
 
 ---
 
 > 旧版：
 
-![](image/msg2011-3.png)
+![](/../image/msg2011-3.png)
 
 > 新版：
 >
-> ![](image/msg2020-3.png)
+> ![](/../image/msg2020-3.png)
 
 ---
 
 > 旧版：
 
-![](image/msg2011-4.png)
+![](/../image/msg2011-4.png)
 
 > 新版：
 >
-> ![](image/msg2020-4.png)
+> ![](/../image/msg2020-4.png)
 
 ---
 > 旧版：
 
-![](image/msg2011-5.png)
+![](/../image/msg2011-5.png)
 
 > 新版：
 >
-> ![](image/msg2020-5.png)
+> ![](/../image/msg2020-5.png)
 
 ---
 
 > 新版新增“新冠疫情”：
 >
-> ![](image/msg2020-new1.png)
+> ![](/../image/msg2020-new1.png)
 
 > 新版新增“洛阳铲”：
 >
-> ![](image/msg2020-new2.png)
+> ![](/../image/msg2020-new2.png)
