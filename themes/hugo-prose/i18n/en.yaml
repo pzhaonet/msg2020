@@ -30,4 +30,6 @@
 
 - id: previousPost
   translation: "Previous post (newer)"
-  
+
+- id: notFound404
+  translation: "404 NOT FOUND"

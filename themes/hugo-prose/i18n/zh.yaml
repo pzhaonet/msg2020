@@ -30,3 +30,7 @@
 
 - id: previousPost
   translation: "上一篇 (新)"
+  
+- id: notFound404
+  translation: "页面没找到（错误代码 404）"
+  
