@@ -1,6 +1,8 @@
 baseurl: "https://msg2020.pzhao.org/"
 # languageCode: "en-us"
 languageCode: "zh-cn"
+# defaultContentLanguage: "en"
+defaultContentLanguage: "zh"
 title: "现代统计图形"
 theme: "hugo-prose"
 publishdir: "docs"
