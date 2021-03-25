@@ -1,6 +1,7 @@
 ---
 author: 
   - 赵鹏
+  - 谢益辉
 title: '书中链接'
 slug: hyperlink
 ---
