@@ -15,3 +15,12 @@ a:hover {
 a:active {
     color: navy;
 }
+
+/* Colors for the footer */
+footer { background: white; }
+.footer, .footer a { color: darkslategray; }
+
+blockquote {
+font-family: "楷体","楷体_GB2312";
+/* text-indent: 2em; */
+}
