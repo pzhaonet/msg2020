@@ -15,3 +15,7 @@ a:hover {
 a:active {
     color: navy;
 }
+
+/* Colors for the footer */
+footer { background: white; }
+.footer, .footer a { color: darkslategray; }
