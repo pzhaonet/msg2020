@@ -21,6 +21,12 @@ footer { background: white; }
 .footer, .footer a { color: darkslategray; }
 
 blockquote {
-font-family: "楷体","楷体_GB2312";
+font-family: STKaiti, "楷体","楷体_GB2312", Optima, Candara, Calibri, "Droid Sans", Arial, sans-serif;
+;
+/* font-size:20px;*/
 /* text-indent: 2em; */
+}
+
+h1, h2, h3 {
+  font-family: STHeiti, "黑体", Palatino, Book Antiqua, serif;
 }
