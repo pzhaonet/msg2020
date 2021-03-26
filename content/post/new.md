@@ -4,6 +4,7 @@ author:
 title: '庚子本有哪些新内容'
 date: 2020-07-28
 slug: new
+features: [-number_sections]
 ---
 
 与庚寅本相比，本次的庚子本有重大变化，包括但不限于：

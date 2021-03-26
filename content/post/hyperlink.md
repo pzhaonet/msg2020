@@ -4,6 +4,7 @@ author:
   - 谢益辉
 title: '书中链接'
 slug: hyperlink
+features: [-number_sections]
 ---
 
 书中出现的超级链接在出版过程中因故全部删除，现按章节先后顺序汇总于此。
