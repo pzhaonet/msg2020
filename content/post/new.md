@@ -4,6 +4,7 @@ author:
 title: '庚子本有哪些新内容'
 date: 2020-07-28
 slug: new
+features: [-number_sections]
 description: 今有印刷版以全新的逻辑框架问世。在保持旧版原文风格的前提下，遣词造句、段落格式、乃至标点符号都经过作者和编辑再度精心打磨；新增一些图形，并且尽量提供 ggplot2 源码，含中文注释......
 ---
 
