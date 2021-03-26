@@ -3,7 +3,13 @@
 <div class="container list">
 <main>
 {{ if not .IsHome }}
-<h1>{{ .Title }}</h1>
+<h1>
+  {{ if eq .Title "Posts" }}
+    文章
+  {{ else }}
+    {{ .Title }}
+  {{ end }}
+</h1>
 {{ end }}
 
 {{ with .Content }}
@@ -50,7 +56,16 @@
     </td>
     {{ if $.IsHome }}
     <td class="spacer spacer-right"></td>
-    <td class="side-title">{{ with .Section }}<h1><a href="{{ print "/" . "/" | relURL }}">{{ . }}</a></h1>{{ end }}</td>
+    <td class="side-title">{{ with .Section }}
+      {{ if (eq . "post") }}
+        <h1 style="writing-mode: vertical-rl; transform: rotate(-90deg);"><a href="{{ print "/" . "/" | relURL }}"> 文章
+      {{ else }}
+        <h1><a href="{{ print "/" . "/" | relURL }}">{{ . }}
+      {{ end }}
+        </a></h1>
+    {{ end }}
+    </td>
+
     {{ end }}
     </tr>
     </tbody>
