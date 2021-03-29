@@ -33,3 +33,13 @@
 
 - id: notFound404
   translation: "404 NOT FOUND"
+
+- id: postListTitle
+  translation: "Post"
+
+- id: postsListTitle
+  translation: "Posts"
+
+- id: cardsListTitle
+  translation: "Cards"
+ 

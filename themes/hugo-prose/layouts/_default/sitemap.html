@@ -10,9 +10,9 @@
   <section class="article-list normal-card">
   <h2 class="archive-title"><a href="{{ print "/" .Key "/" | relURL }}">
     {{ if (eq .Key "post") }}
-        文章
+        {{ i18n "postsListTitle" }}
     {{ else if (eq .Key "card") }}
-        作者
+        {{ i18n "cardsListTitle" }}
     {{ else }}
       {{ .Key | pluralize | title }}
     {{ end }}

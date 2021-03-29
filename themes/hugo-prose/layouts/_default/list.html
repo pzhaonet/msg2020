@@ -5,7 +5,7 @@
 {{ if not .IsHome }}
 <h1>
   {{ if eq .Title "Posts" }}
-    文章
+    {{ i18n "postsListTitle" }}
   {{ else }}
     {{ .Title }}
   {{ end }}
@@ -58,7 +58,7 @@
     <td class="spacer spacer-right"></td>
     <td class="side-title">{{ with .Section }}
       {{ if (eq . "post") }}
-        <h1 style="writing-mode: vertical-rl; transform: rotate(-90deg);"><a href="{{ print "/" . "/" | relURL }}"> 文章
+        <h1 style="writing-mode: vertical-rl; transform: rotate(-90deg);"><a href="{{ print "/" . "/" | relURL }}"> {{ i18n "postListTitle" }}
       {{ else }}
         <h1><a href="{{ print "/" . "/" | relURL }}">{{ . }}
       {{ end }}
