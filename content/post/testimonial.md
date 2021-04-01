@@ -4,8 +4,9 @@ author:
   - 赵鹏
   - 黄湘云（搜集整理）
 title: '推荐语'
-date: 2021-03-24
+# date: 2021-03-24
 slug: testimonial
+weight: 10
 description: 我在工作学习中从这本书里获得了很多灵感，我自己写的书里也多次引用了这本书的网络版。这不仅是一本统计图形的工具书和教科书，更可以作为统计思维的人生之书......
 appendix:
   欢迎参与: 如果你也想写推荐语，请点击[这里](https://github.com/pzhaonet/msg2020/blob/master/content/post/testimonial.md)提交。

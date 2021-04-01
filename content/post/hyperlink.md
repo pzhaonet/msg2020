@@ -4,6 +4,7 @@ author:
   - 谢益辉
 title: '书中链接'
 slug: hyperlink
+weight: 60
 features: [-number_sections]
 ---
 
