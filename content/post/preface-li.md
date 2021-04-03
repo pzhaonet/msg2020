@@ -1,7 +1,7 @@
 ---
 author: 
   - 李舰
-title: '时空错位的迷幻（书评）'
+title: '时空迷幻'
 # date: 2019-08-20
 slug: preface-li
 weight: 50

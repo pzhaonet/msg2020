@@ -1,7 +1,7 @@
 ---
 author: 
   - 谢益辉
-title: '自序'
+title: '作者自序'
 # date: 2020-08-11
 slug: preface-xie
 weight: 20

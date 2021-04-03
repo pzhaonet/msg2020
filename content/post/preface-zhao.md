@@ -1,7 +1,7 @@
 ---
 author: 
   - 赵鹏
-title: '古统新修记'
+title: '古统新修'
 # date: 2020-07-23
 slug: preface-zhao
 weight: 30

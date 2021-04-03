@@ -3,7 +3,7 @@ author:
   - 谢益辉
   - 赵鹏
   - 黄湘云（搜集整理）
-title: '推荐语'
+title: '推荐语录'
 # date: 2021-03-24
 slug: testimonial
 weight: 10

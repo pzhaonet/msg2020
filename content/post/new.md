@@ -1,7 +1,7 @@
 ---
 author: 
   - 赵鹏
-title: '庚子本有哪些新内容'
+title: '本版更新'
 # date: 2020-07-28
 slug: new
 features: [-number_sections]
