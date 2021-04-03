@@ -1,0 +1,29 @@
+---
+author: 
+  - 赵鹏
+title: '作图代码'
+slug: code
+weight: 80
+description: 图的绘制代码和说明如表所示。运行表中的代码，即可再现书中的插图。
+---
+
+图的绘制代码和说明如下表所示。请先安装和加载**MSG**包：
+
+```{r, eval=FALSE}
+install.packages("MSG")
+library("MSG")
+```
+
+```{r, echo=FALSE, results='hide'}
+Sys.setlocale("LC_CTYPE", "Chinese")
+```
+
+再运行下表中的代码，即可再现书中的插图。
+
+```{r, echo=FALSE}
+graphnr <- read.csv(system.file("extdata/graphnr.csv", package = "MSG"))
+graphnr$nr <- paste0("`msg('", graphnr$nr, "')`")
+names(graphnr) <- c("代码", "图形")
+knitr::kable(graphnr)
+```
+

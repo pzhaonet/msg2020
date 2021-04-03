@@ -1,0 +1,762 @@
+---
+author: 
+  - 赵鹏
+title: '作图代码'
+slug: code
+weight: 80
+description: 图的绘制代码和说明如表所示。运行表中的代码，即可再现书中的插图。
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>图的绘制代码和说明如下表所示。请先安装和加载<strong>MSG</strong>包：</p>
+<pre class="r"><code>install.packages(&quot;MSG&quot;)
+library(&quot;MSG&quot;)</code></pre>
+<p>再运行下表中的代码，即可再现书中的插图。</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">代码</th>
+<th align="left">图形</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><code>msg('0')</code></td>
+<td align="left">install-packages</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('6.14')</code></td>
+<td align="left">andrews-curve</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('36.14')</code></td>
+<td align="left">andrews-curve-tikz</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('11.12')</code></td>
+<td align="left">animation-pollen</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('3.16')</code></td>
+<td align="left">assists-sna</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('7.12')</code></td>
+<td align="left">assocplot</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('7.15')</code></td>
+<td align="left">assocplot2</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('9.15')</code></td>
+<td align="left">axis-demo</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('11.13')</code></td>
+<td align="left">ChinaHeart3D</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('5.9')</code></td>
+<td align="left">bagplot</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('25.9')</code></td>
+<td align="left">bagplot2</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('3.17')</code></td>
+<td align="left">basketball</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('3.18')</code></td>
+<td align="left">basketball-fourfold</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('3.1')</code></td>
+<td align="left">canabalt-boxplot</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('5.7')</code></td>
+<td align="left">cdplot</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('25.7')</code></td>
+<td align="left">cdplot2</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('6.4')</code></td>
+<td align="left">ChinaPop</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('3.4')</code></td>
+<td align="left">cn-us-redraw</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('33.4')</code></td>
+<td align="left">cn-us-redraw-tikz</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('9.5')</code></td>
+<td align="left">ColorBrewer-all</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('7.1')</code></td>
+<td align="left">contour-grid</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('27.1')</code></td>
+<td align="left">contour-grid2</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('37.1')</code></td>
+<td align="left">contour-grid2-tikz</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('7.2')</code></td>
+<td align="left">contour-pop</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('27.2')</code></td>
+<td align="left">contour-pop2</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('6.3')</code></td>
+<td align="left">coplot</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('6.19')</code></td>
+<td align="left">coplot2</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('3.7')</code></td>
+<td align="left">covidchina</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('3.8')</code></td>
+<td align="left">covidcountries</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('5.2')</code></td>
+<td align="left">curve</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('35.2')</code></td>
+<td align="left">curve-tikz</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('25.2')</code></td>
+<td align="left">curve2</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('8.6')</code></td>
+<td align="left">cut-plot</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('38.5')</code></td>
+<td align="left">cut-plot-tikz</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('7.3')</code></td>
+<td align="left">density-2d-filled</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('10.9')</code></td>
+<td align="left">diamonds-carat</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('10.7')</code></td>
+<td align="left">diamonds-cut</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('10.3')</code></td>
+<td align="left">diamonds-hex</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('10.8')</code></td>
+<td align="left">diamonds-polar</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('8.1')</code></td>
+<td align="left">discrete-var</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('4.2')</code></td>
+<td align="left">dotchart</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('4.3')</code></td>
+<td align="left">dotchart2</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('6.18')</code></td>
+<td align="left">eqMaps-demo</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('8.11')</code></td>
+<td align="left">error-bars</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('6.7')</code></td>
+<td align="left">faces2</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('7.14')</code></td>
+<td align="left">fig-contour-persp</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('7.4')</code></td>
+<td align="left">filled-contour</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('4.15')</code></td>
+<td align="left">floating-pie</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('7.13')</code></td>
+<td align="left">fourfoldplot</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('10.1')</code></td>
+<td align="left">geom-jitter-demo</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('6.13')</code></td>
+<td align="left">ggparcoord</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('10.12')</code></td>
+<td align="left">ggplot2-layers</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('2.2')</code></td>
+<td align="left">ggplot2-minard</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('10.11')</code></td>
+<td align="left">ggplot2-theme</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('10.4')</code></td>
+<td align="left">ggplot2-violin</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('3.19')</code></td>
+<td align="left">gov-cn-pct</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('23.19')</code></td>
+<td align="left">gov-cn-pct2</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('9.6')</code></td>
+<td align="left">grad-color</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('9.22')</code></td>
+<td align="left">gradArrows</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('9.2')</code></td>
+<td align="left">graphicsEvent</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('11.3')</code></td>
+<td align="left">grid-princomp</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('11.2')</code></td>
+<td align="left">grid-rotate</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('11.1')</code></td>
+<td align="left">grid-subplot</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('311.1')</code></td>
+<td align="left">grid-subplot-tikz</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('7.11')</code></td>
+<td align="left">heatmap</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('4.5')</code></td>
+<td align="left">hist-density</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('24.5')</code></td>
+<td align="left">hist-density2</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('4.4')</code></td>
+<td align="left">hist-geyser</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('24.4')</code></td>
+<td align="left">hist-geyser2</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('7.6')</code></td>
+<td align="left">image</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('27.6')</code></td>
+<td align="left">image2</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('7.5')</code></td>
+<td align="left">image24</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('27.5')</code></td>
+<td align="left">image242</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('37.5')</code></td>
+<td align="left">image242-tikz</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('4.8')</code></td>
+<td align="left">insects-boxplot</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('24.8')</code></td>
+<td align="left">insects-boxplot2</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('3.25')</code></td>
+<td align="left">interaction-bubble</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('33.25')</code></td>
+<td align="left">interaction-bubble-tikz</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('6.11')</code></td>
+<td align="left">interaction-plot</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('10.5')</code></td>
+<td align="left">iris-ggplot2</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('8.1')</code></td>
+<td align="left">kmeans-cluster</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('38.9')</code></td>
+<td align="left">kmeans-cluster-tikz</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('11.6')</code></td>
+<td align="left">lattice-data-par</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('311.6')</code></td>
+<td align="left">lattice-data-par-tikz</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('11.4')</code></td>
+<td align="left">lattice-iris-hist</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('11.7')</code></td>
+<td align="left">lattice-panel-function</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('11.5')</code></td>
+<td align="left">lattice-vadeaths</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('9.17')</code></td>
+<td align="left">layout</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('9.18')</code></td>
+<td align="left">layout-margin</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('9.1')</code></td>
+<td align="left">lines-demo</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('6.15')</code></td>
+<td align="left">map</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('26.15')</code></td>
+<td align="left">map2</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('7.9')</code></td>
+<td align="left">matplot</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('7.1')</code></td>
+<td align="left">matplot2</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('37.1')</code></td>
+<td align="left">matplot2-tikz</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('6.9')</code></td>
+<td align="left">mosaicplot</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('10.2')</code></td>
+<td align="left">mtcars-smooth</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('3.24')</code></td>
+<td align="left">multireg-scatter</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('23.24')</code></td>
+<td align="left">multireg-scatter2</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('33.24')</code></td>
+<td align="left">multireg-scatter2-tikz</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('6.8')</code></td>
+<td align="left">murcia-ternary</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('3.15')</code></td>
+<td align="left">music-3d-pcp</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('3.14')</code></td>
+<td align="left">music-andrews</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('33.14')</code></td>
+<td align="left">music-andrews-tikz</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('8.4')</code></td>
+<td align="left">music-mds</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('4.17')</code></td>
+<td align="left">nightingale-ggplot2</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('3.26')</code></td>
+<td align="left">OLS-LMS</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('23.26')</code></td>
+<td align="left">OLS-LMS2</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('33.26')</code></td>
+<td align="left">OLS-LMS2-tikz</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('8.9')</code></td>
+<td align="left">optical-illusion</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('3.27')</code></td>
+<td align="left">outlier-resample</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('23.27')</code></td>
+<td align="left">outlier-resample2</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('33.27')</code></td>
+<td align="left">outlier-resample2-tikz</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('6.1')</code></td>
+<td align="left">pairs</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('6.2')</code></td>
+<td align="left">pairs2</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('9.2')</code></td>
+<td align="left">par1</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('9.3')</code></td>
+<td align="left">par2</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('8.3')</code></td>
+<td align="left">pay-rating-log</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('8.2')</code></td>
+<td align="left">pay-rating-points</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('38.2')</code></td>
+<td align="left">pay-rating-points-tikz</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('7.7')</code></td>
+<td align="left">persp</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('7.8')</code></td>
+<td align="left">persp-pop</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('37.8')</code></td>
+<td align="left">persp-pop-tikz</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('4.14')</code></td>
+<td align="left">pie-chart</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('24.14')</code></td>
+<td align="left">pie-chart2</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('3.2')</code></td>
+<td align="left">PlantCounts</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('23.2')</code></td>
+<td align="left">PlantCounts2</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('6.1')</code></td>
+<td align="left">plot-design</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('9.4')</code></td>
+<td align="left">plot-region</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('9.1')</code></td>
+<td align="left">plot-type</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('9.16')</code></td>
+<td align="left">plotmath</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('39.16')</code></td>
+<td align="left">plotmath-tikz</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('9.8')</code></td>
+<td align="left">point-iris</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('9.9')</code></td>
+<td align="left">point-random</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('9.7')</code></td>
+<td align="left">point-type</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('9.13')</code></td>
+<td align="left">polygon-demo</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('9.12')</code></td>
+<td align="left">polygon-kaleidoscope</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('3.2')</code></td>
+<td align="left">pork-price</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('23.2')</code></td>
+<td align="left">pork-price2</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('10.1')</code></td>
+<td align="left">qplot</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('4.16')</code></td>
+<td align="left">qqnorm</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('24.16')</code></td>
+<td align="left">qqnorm2</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('10.6')</code></td>
+<td align="left">quake6-bubbles</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('310.6')</code></td>
+<td align="left">quake6-bubbles-tikz</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('11.9')</code></td>
+<td align="left">rgl-beta</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('11.8')</code></td>
+<td align="left">rgl-ch4</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('11.1')</code></td>
+<td align="left">rgl-china-map</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('4.9')</code></td>
+<td align="left">rnorm-boxplot</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('24.9')</code></td>
+<td align="left">rnorm-boxplot2</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('34.9')</code></td>
+<td align="left">rnorm-boxplot2-tikz</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('6.12')</code></td>
+<td align="left">rpart</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('4.11')</code></td>
+<td align="left">rug</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('24.11')</code></td>
+<td align="left">rug2</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('5.1')</code></td>
+<td align="left">scatter-alpha</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('25.1')</code></td>
+<td align="left">scatter-alpha2</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('9.23')</code></td>
+<td align="left">sign-stat</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('5.4')</code></td>
+<td align="left">smoothScatter</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('25.4')</code></td>
+<td align="left">smoothScatter2</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('3.23')</code></td>
+<td align="left">song-high-freq</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('3.22')</code></td>
+<td align="left">song-words-corr</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('3.21')</code></td>
+<td align="left">song-words-hclust</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('5.8')</code></td>
+<td align="left">spineplot</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('9.19')</code></td>
+<td align="left">split-screen</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('6.6')</code></td>
+<td align="left">stars</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('4.6')</code></td>
+<td align="left">stem-islands</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('4.7')</code></td>
+<td align="left">stem-poisson</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('4.12')</code></td>
+<td align="left">stripchart</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('4.13')</code></td>
+<td align="left">stripchart2</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('5.3')</code></td>
+<td align="left">sunflowerplot</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('8.8')</code></td>
+<td align="left">sunspots-asp</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('5.6')</code></td>
+<td align="left">survival</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('25.6')</code></td>
+<td align="left">survival2</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('6.5')</code></td>
+<td align="left">symbols_all</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('9.14')</code></td>
+<td align="left">text</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('8.5')</code></td>
+<td align="left">tufte1997</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('3.13')</code></td>
+<td align="left">tvearn</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('4.1')</code></td>
+<td align="left">vadeaths-barplot</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('24.1')</code></td>
+<td align="left">vadeaths-barplot2</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('4.1')</code></td>
+<td align="left">vioplot</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('24.1')</code></td>
+<td align="left">vioplot2</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('9.21')</code></td>
+<td align="left">waterfall-chart</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('5.5')</code></td>
+<td align="left">windrose</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>msg('6.16')</code></td>
+<td align="left">worldmap</td>
+</tr>
+<tr class="even">
+<td align="left"><code>msg('9.11')</code></td>
+<td align="left">xspline-demo</td>
+</tr>
+</tbody>
+</table>
