@@ -55,7 +55,7 @@ params:
     致谢：本站采用 [Hugo](https://gohugo.io/) 框架、[Prose](https://prose.yihui.org/about/) 主题、[R blogdown](https://bookdown.org/yihui/blogdown/) 包搭建，[GitHub](https://bookdown.org/yihui/blogdown/) 和 [Vercel](https://vercel.com/) 托管。
 
   license: >
-    本文文字和图表使用知识共享许可协议 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)，[源文件](https://github.com/pzhaonet/msg2020)采用 MIT 协议。。
+    本文文字和图表使用知识共享许可协议 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)，[源文件](https://github.com/pzhaonet/msg2020)采用 MIT 协议。
 #    Text and figures are licensed under [Creative Commons Attribution CC BY
 #    4.0](https://creativecommons.org/licenses/by/4.0/). The source code is
 #    licensed under MIT. The full source is available at
