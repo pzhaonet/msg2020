@@ -35,10 +35,7 @@
   translation: "页面没找到（错误代码 404）"
 
 - id: postListTitle
-  translation: "文章"
-
-- id: postsListTitle
-  translation: "文章"
+  translation: " "
 
 - id: cardsListTitle
   translation: "作者"
