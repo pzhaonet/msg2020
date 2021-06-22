@@ -4,6 +4,7 @@ author:
 title: '作图代码'
 slug: code
 weight: 80
+toc-title: "目录"
 description: 图的绘制代码和说明如表所示。运行表中的代码，即可再现书中的插图。
 ---
 

@@ -6,6 +6,7 @@ title: '书中链接'
 slug: hyperlink
 weight: 60
 features: [-number_sections]
+toc-title: "目录"
 ---
 
 书中出现的超级链接在出版过程中因故全部删除，现按章节先后顺序汇总于此。
