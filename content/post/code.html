@@ -10,29 +10,48 @@ description: 图的绘制代码和说明如表所示。运行表中的代码，�
 <script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
 
-<div id="最直观的方法" class="section level3">
-<h3>最直观的方法</h3>
+<div id="最直观的方法" class="section level2">
+<h2>最直观的方法</h2>
 <p>本书插图除了外部引用的图片外，均使用 R 语言绘制。读者可以很方便地获取作图代码，来重现书中插图，方法如下：</p>
 <pre class="r"><code>install.packages(&quot;MSG&quot;) # 初次使用时安装 MSG 包
 library(&quot;MSG&quot;) # 加载包
-Sys.setlocale(&quot;LC_CTYPE&quot;, &quot;Chinese&quot;) # Windows 用户的区域语言设置如果不是中文，则需运行本行来支持中文字符
-msg(&#39;4.1&#39;) # 重现插图和获取代码</code></pre>
-<p>这是最直观的方式，即运行 <code>msg('图的编号')</code>。例如书中的“图 4.1”，可运行 <code>msg('4.1')</code>。注意：图的编号要放在一对引号里。如果忘记了输入引号，那么得到的源代码和图形可能不是你想要得到的，如 <code>msg(4.10)</code> 将得到图 4.1 而非图 4.10。</p>
+msg(&#39;4.1&#39;) # 重现插图 4.1 和获取作图代码</code></pre>
+<p>这是最直观的方式，即运行 <code>msg('图的编号')</code>。注意：图的编号要放在一对引号里，它是个字符串。如果忘记了输入引号，那么得到的源代码和图形可能不是你想要得到的，如 <code>msg(4.10)</code> 将得到图 4.1 而非图 4.10。</p>
 </div>
-<div id="基础作图与-ggplot2" class="section level3">
-<h3>基础作图与 <strong>ggplot2</strong></h3>
-<p>很多图形我们都给出了 R 基础作图和 <strong>ggplot2</strong> 作图两种解决方案，在这种情况下，<code>msg('图的编号')</code>得到的一般是基础作图代码和图形。如果想得到 <strong>ggplot2</strong> 图形，只需在图形编号前面增加一个 <code>2</code> 就可以了，例如 <code>msg('24.1')</code>，可得到图 4.1 <strong>ggplot2</strong> 版本的图示和源代码。详见下表。</p>
-<p>有些图形还可以在编号前面增加个 <code>3</code>。至于用处是什么，你猜。</p>
-</div>
+<div id="可能遇到的问题" class="section level2">
+<h2>可能遇到的问题</h2>
 <div id="附加包支持" class="section level3">
 <h3>附加包支持</h3>
-<p>有些图形需要额外的附加包支持，初次使用时需要读者自行安装。为了方便，读者可以运行 <code>msg('0')</code>，一次性安装本书示例代码中所有需要的附加包。</p>
+<p>有些图形需要额外的附加包支持，初次使用时需要读者自行安装。</p>
+<p>如果觉得逐个安装太麻烦，读者可以运行：</p>
+<pre class="r"><code>msg(&#39;0&#39;)</code></pre>
+<p>就可一次性安装本书示例代码中所需的全部附加包。</p>
 </div>
-<div id="图的英文代号" class="section level3">
-<h3>图的英文代号</h3>
-<p>除了 <code>msg('图的编号')</code> 外，也可以运行 `<code>msg('图的英文代号')</code>。例如，图 4.1 的英文代号是 “vadeaths-barplot”，那么可运行 <code>msg('vadeaths-barplot')</code>，等价于 <code>msg('4.1')</code>。</p>
-<p>图的编号和英文代号如下表所示。</p>
+<div id="中文支持" class="section level3">
+<h3>中文支持</h3>
+<p>如果读者用的是 Windows 操作系统，而区域语言的设置不是中文（这种情况在本书的读者群里应该很少见），则可能在重现图形时遇到如下警告：</p>
+<pre><code>Warning message:
+In readLines(file, warn = FALSE) :
+  invalid input found on input connection &#39;......&#39; </code></pre>
+<p>这种情况下，只需在作图前需运行下面一行来支持中文字符：</p>
+<pre class="r"><code>Sys.setlocale(&quot;LC_CTYPE&quot;, &quot;Chinese&quot;)</code></pre>
+</div>
+</div>
+<div id="基础作图与-ggplot2" class="section level2">
+<h2>基础作图与 <strong>ggplot2</strong></h2>
+<p>很多图形我们都给出了 R 基础作图和 <strong>ggplot2</strong> 作图两种解决方案，在这种情况下，<code>msg('图的编号')</code>得到的一般是基础作图代码和图形。如果想得到 <strong>ggplot2</strong> 图形，只需在图形编号前面增加一个 <code>2</code> 就可以了，例如：</p>
+<pre class="r"><code>msg(&#39;24.1&#39;)</code></pre>
+<p>就可得到图 4.1 的 <strong>ggplot2</strong> 版本，包括图示和源代码。</p>
+<p>注意，并非所有的图都有两个版本；支持编号前有 <code>2</code>的图见附表。</p>
+<p>有些图形还可以在编号前面增加个 <code>3</code>。至于用处是什么，你猜。</p>
+</div>
+<div id="图的英文代号" class="section level2">
+<h2>图的英文代号</h2>
+<p>除了 <code>msg('图的编号')</code> 外，也可以运行 <code>msg('图的英文代号')</code>。例如，图 4.1 的英文代号是 “vadeaths-barplot”，那么可运行 <code>msg('vadeaths-barplot')</code>，等价于 <code>msg('4.1')</code>。</p>
+<p>图的编号和英文代号如附表所示。</p>
+
 <table>
+<caption>表 1. <code>MSG::msg()</code> 函数支持的图编号和英文代码</caption>
 <thead>
 <tr class="header">
 <th align="right">编号</th>
