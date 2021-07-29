@@ -8,8 +8,10 @@ title: 主页
 <div class="embed-left">
 公告栏：
 
-- 预告：读者见面会近期直播。
-- 2021-07-28 开始[在线预售](https://www.ituring.com.cn/book/2951)。
+- 预告：新书发布会和读者见面会
+  - 2021-08-12 20:30
+  - 腾讯会议直播
+- [在线预售](https://www.ituring.com.cn/book/2951)
 
 <center>
 <a href="image/msg2020-bookcover.png">
