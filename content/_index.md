@@ -6,6 +6,11 @@ title: 主页
 ---
 
 <div class="embed-left">
+公告栏：
+
+- 预告：读者见面会近期直播。
+- 2021-07-28 开始[在线预售](https://www.ituring.com.cn/book/2951)。
+
 <center>
 <a href="image/msg2020-bookcover.png">
   <img src="image/msg2020-bookcover.png" style="zoom: 40%;" align="middle" alt="现代统计图形封面" />
@@ -13,7 +18,9 @@ title: 主页
 </center>
 </div>
 
-《现代统计图形》，赵鹏、谢益辉、黄湘云，人民邮电出版社，北京，2021。这是《现代统计图形》印刷版的主页。
+《现代统计图形》，赵鹏、谢益辉、黄湘云，人民邮电出版社，北京，2021。ISBN 978-7-115-56690-4。304 页，16 开，单色印刷附彩页。
+
+这里是《现代统计图形》印刷版的主页。
 
 <div class="embed-right">
 <center>
@@ -29,14 +36,24 @@ title: 主页
 
 > 一图千言十四载，人事代谢古成今。  
 > 快意少年重展卷，江山胜迹复登临。  
-> 皓月当歌盈台榭，金樽对酒宴旧宾。  
-> 他日喜逢江渚上，流觞曲水照琴心。
+> 皓月当歌盈台榭，金樽对酒抚瑶琴。  
+> 他日喜逢江渚上，流觞曲水照冰心。
 
 </div>
 
 - 宣传主页：<https://msg2020.pzhao.org>
+- 官方书店：<https://www.ituring.com.cn/book/2951>
 - 书稿讨论：[统计之都](https://d.cosx.org/d/421648)
 - 下载阅读：[试读章节](/../docs/msg-trailer.pdf)；[删减章节](/../docs/msg-removed.pdf)
 - 开发园地：[书稿源码](https://github.com/XiangyunHuang/MSG-Book/tree/edition1)、[配套 R 包](https://github.com/yihui/MSG/issues)、[修订历程](https://github.com/XiangyunHuang/MSG-Book/issues/88)
-- 往事前尘：[前传](https://d.cosx.org/d/420857)，[早期留言（可能看不见）](https://yihui.org/cn/publication/)，作者博客 [1](https://yihui.org/cn/2018/09/inbox-zero/)、[2](https://yihui.org/cn/2013/02/waiting-for-thousand-years/)、[3](https://yihui.org/cn/2012/06/quick-notes/)、[4](https://yihui.org/cn/2010/08/modern-stat-graphics-manuscript/)、 [5](https://yihui.org/cn/2010/09/msg-graphics-gallery-finished/)、[6](https://yihui.org/cn/2010/08/art-of-points-in-r/)、 [7](https://yihui.org/cn/2010/03/feel-charmed-etc/)
-
+- 往事前尘：[前传](https://d.cosx.org/d/420857)，
+[早期留言（可能看不见）](https://yihui.org/cn/publication/)，
+作者博客 
+[1](https://yihui.org/cn/2010/03/feel-charmed-etc/)、
+[2](https://yihui.org/cn/2010/08/art-of-points-in-r/)、 [3](https://yihui.org/cn/2010/09/msg-graphics-gallery-finished/)、
+[4](https://yihui.org/cn/2010/08/modern-stat-graphics-manuscript/)、 
+[5](https://yihui.org/cn/2012/06/quick-notes/)、
+[6](https://yihui.org/cn/2013/02/waiting-for-thousand-years/)、
+[7](https://yihui.org/cn/2018/09/inbox-zero/)、
+[8](https://yihui.org/cn/2021/03/dad-rice/)、
+[9](https://yihui.org/cn/2021/07/ancient-stat-graphics/)
