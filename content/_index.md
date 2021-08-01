@@ -48,8 +48,8 @@ title: 主页
 - 书稿讨论：[统计之都](https://d.cosx.org/d/421648)
 - 下载阅读：[试读章节](/../docs/msg-trailer.pdf)；[删减章节](/../docs/msg-removed.pdf)
 - 开发园地：[书稿源码](https://github.com/XiangyunHuang/MSG-Book/tree/edition1)、[配套 R 包](https://github.com/yihui/MSG/issues)、[修订历程](https://github.com/XiangyunHuang/MSG-Book/issues/88)
-- 往事前尘：[前传](https://d.cosx.org/d/420857)，
-[早期留言（可能看不见）](https://yihui.org/cn/publication/)，
+- 往事前尘：[旧稿搬迁](https://d.cosx.org/d/420857)，
+[早期留言](https://yihui.org/cn/publication/)，
 作者博客 
 [1](https://yihui.org/cn/2010/03/feel-charmed-etc/)、
 [2](https://yihui.org/cn/2010/08/art-of-points-in-r/)、 [3](https://yihui.org/cn/2010/09/msg-graphics-gallery-finished/)、
