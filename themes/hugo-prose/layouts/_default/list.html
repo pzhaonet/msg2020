@@ -75,8 +75,12 @@
 
 
 {{ if .IsHome }}
+
 {{ range $i, $p := (where .Site.RegularPages "Section" "card") }}
+<!--
 <section class="article-list"{{ with .Params.style }}{{ printf " style=%q" . | safeHTMLAttr }}{{ end }}>
+-->
+<section class="article-list"{{ with .Params.style }}{{ end }}>
   <table>
   <tbody>
   <tr>

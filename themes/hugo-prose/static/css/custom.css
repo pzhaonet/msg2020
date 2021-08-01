@@ -30,3 +30,50 @@ font-family: STKaiti, "楷体","楷体_GB2312", Optima, Candara, Calibri, "Droid
 h1, h2, h3 {
   font-family: STHeiti, "黑体", Palatino, Book Antiqua, serif;
 }
+
+
+/* dark theme*/
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    filter: invert(1);
+  }
+
+  img {
+    filter: invert(1);
+  }
+
+  .article-list {
+    box-shadow: 0 0 8px #888;
+  }
+
+  .footer, .footer a {
+    color: #333;
+  }
+
+.article, .article-meta, .article-list, .embed-left, .embed-right, .quote-left, .quote-right, .table, .appendix, .utterances, .single, .menu {
+  background: #F2EEE8;
+  color:#362E26;
+}
+
+blockquote{
+  background-color: #F2EEE8;
+}
+
+a:link {
+    color: #E67318;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+  	text-decoration: underline
+}
+
+a:active {
+    color: navy;
+}
+
+}
