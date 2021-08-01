@@ -7,7 +7,7 @@ weight: 1
 <div class="embed-right">
 <center>
 <a href="https://github.com/pzhaonet">
-  <img src="https://avatars.githubusercontent.com/u/4011804?s=460&v=4" width="100" alt="赵鹏的头像" />
+  <img src="/image/qr-wechat-dapengde.jpg" width="100" alt="赵鹏的头像" />
 </a>
 </center>
 </div>
