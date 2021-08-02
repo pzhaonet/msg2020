@@ -46,16 +46,6 @@ title: 主页
 - 宣传主页：<https://msg2020.pzhao.org>
 - 官方书店：<https://www.ituring.com.cn/book/2951>
 - 书稿讨论：[统计之都](https://d.cosx.org/d/421648)
-- 下载阅读：[试读章节](/../docs/msg-trailer.pdf)；[删减章节](/../docs/msg-removed.pdf)
-- 开发园地：[书稿源码](https://github.com/XiangyunHuang/MSG-Book/tree/edition1)、[配套 R 包](https://github.com/yihui/MSG/issues)、[修订历程](https://github.com/XiangyunHuang/MSG-Book/issues/88)
-- 往事前尘：[旧稿搬迁](https://d.cosx.org/d/420857)，
-[早期留言](https://yihui.org/cn/publication/)，
-作者博客 
-[1](https://yihui.org/cn/2010/03/feel-charmed-etc/)、
-[2](https://yihui.org/cn/2010/08/art-of-points-in-r/)、 [3](https://yihui.org/cn/2010/09/msg-graphics-gallery-finished/)、
-[4](https://yihui.org/cn/2010/08/modern-stat-graphics-manuscript/)、 
-[5](https://yihui.org/cn/2012/06/quick-notes/)、
-[6](https://yihui.org/cn/2013/02/waiting-for-thousand-years/)、
-[7](https://yihui.org/cn/2018/09/inbox-zero/)、
-[8](https://yihui.org/cn/2021/03/dad-rice/)、
-[9](https://yihui.org/cn/2021/07/ancient-stat-graphics/)
+- 下载阅读：[试读章节](/../docs/msg-trailer.pdf)，[删减章节](/../docs/msg-removed.pdf)
+- 开发园地：[书稿源码](https://github.com/XiangyunHuang/MSG-Book/tree/edition1)，[配套 R 包](https://github.com/yihui/MSG/issues)，[修订历程](https://github.com/XiangyunHuang/MSG-Book/issues/88)
+- 往事前尘：[旧稿搬迁](https://d.cosx.org/d/420857)，[早期留言](https://yihui.org/cn/publication/)，作者博客（[壹](https://yihui.org/cn/2010/03/feel-charmed-etc/)、[贰](https://yihui.org/cn/2010/08/art-of-points-in-r/)、[叁](https://yihui.org/cn/2010/09/msg-graphics-gallery-finished/)、[肆](https://yihui.org/cn/2010/08/modern-stat-graphics-manuscript/)、[伍](https://yihui.org/cn/2012/06/quick-notes/)、[陆](https://yihui.org/cn/2013/02/waiting-for-thousand-years/)、[柒](https://yihui.org/cn/2018/09/inbox-zero/)、[捌](https://yihui.org/cn/2021/03/dad-rice/)、[玖](https://yihui.org/cn/2021/07/ancient-stat-graphics/)
