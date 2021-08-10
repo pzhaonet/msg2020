@@ -32,7 +32,7 @@ h1, h2, h3 {
 }
 
 
-/* dark theme*/
+/* dark theme
 @media (prefers-color-scheme: dark) {
   body {
     background-color: black;
@@ -77,3 +77,4 @@ a:active {
 }
 
 }
+*/
