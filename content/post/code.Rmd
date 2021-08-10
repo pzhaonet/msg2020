@@ -78,6 +78,6 @@ msg('24.1')
 graphnr <- read.csv(system.file("extdata/graphnr.csv", package = "MSG"))
 graphnr$nr <- as.character(graphnr$nr)
 names(graphnr) <- c("编号", "英文代号")
-knitr::kable(graphnr, align = c("r", "l"), caption = "(ref:tab)", label = NA)
+knitr::kable(graphnr[1:173, ], align = c("r", "l"), caption = "(ref:tab)", label = NA)
 ```
 
